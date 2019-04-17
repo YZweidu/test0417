@@ -1,0 +1,36 @@
+@import 'common.scss';
+*{
+    margin:0; 
+    padding:0;
+    list-style:none; 
+}
+
+.wrapper{
+    width:100%; 
+    height:100%; 
+    overflow:hidden; 
+    display:flex; 
+    flex-direction: column; 
+    .header{
+        width:100%; 
+        height:pr(40px);
+        ul{
+            width:100%; 
+            height:pr(40px);
+            display:flex; 
+            justify-content: space-evenly;
+            li{
+                align-self: center; 
+                height:pr(40px); 
+                line-height:pr(40px); 
+                font-size:pr(18px); 
+                font-family:"宋体";
+                color:#aaa; 
+            }
+            .liactive{
+                color:blue; 
+                border-bottom:solid blue pr(3px); 
+            }
+        }
+    }
+}
